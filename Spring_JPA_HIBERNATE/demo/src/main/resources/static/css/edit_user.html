@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sửa người dùng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sửa thông tin người dùng</h1>
+        <form id="edit-user-form">
+            <input type="hidden" id="user-id">
+            <label for="name">Tên:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit" class="btn">Cập nhật người dùng</button>
+        </form>
+    </div>
+    <script src="js/edit_script.js"></script>
+</body>
+</html>
